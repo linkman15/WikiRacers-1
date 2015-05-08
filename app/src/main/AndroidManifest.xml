@@ -2,14 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="wikiracers.wikiracers" >
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+=======
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+<<<<<<< HEAD
 
         <activity android:name=".WebBrowser"
             android:label="WikiRacers"
@@ -23,15 +27,26 @@
 
         <activity
             android:name=".MenuActivity"
+=======
+        <activity
+            android:name=".webBrowser"
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+<<<<<<< HEAD
                 <action android:name="android.intent.action.SEND" />
 
+=======
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
             </intent-filter>
 
         </activity>
     </application>
+<<<<<<< HEAD
 
+=======
+<uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
 </manifest>

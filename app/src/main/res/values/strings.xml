@@ -3,6 +3,7 @@
 
     <string name="app_name">WikiRacers</string>
     <string name="Title">WikiRACERS</string>
+<<<<<<< HEAD
     <string name="Build">WikiRACERS -- Build 0.0.6</string>
     <string name="action_settings">Settings</string>
     <string name="Browser_Button_Backtrack">Back</string>
@@ -44,5 +45,11 @@
     <string name="winnerbuttonmessagescore">Scores</string>
     <string name="winnertitlemessage">YOU WIN WIKIRACERS</string>
     <string name="maintextvalueuser" />
+=======
+    <string name="Build">WikiRACERS -- Build 0.0.3</string>
+    <string name="action_settings">Settings</string>
+    <string name="Browser_Button_Backtrack">Back Track</string>
+    <string name="webview_target_url">TARGET URL GOES HERE</string>
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
 
 </resources>

@@ -18,6 +18,10 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
+=======
+    <bytecodeTargetLevel target="1.7" />
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
   </component>
 </project>
 

@@ -3,9 +3,12 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
     </style>
 
 </resources>

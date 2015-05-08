@@ -6,7 +6,11 @@ android {
 
     defaultConfig {
         applicationId "wikiracers.wikiracers"
+<<<<<<< HEAD
         minSdkVersion 14
+=======
+        minSdkVersion 10
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -22,5 +26,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
+<<<<<<< HEAD
     compile 'com.parse.bolts:bolts-android:1.+'
+=======
+>>>>>>> d1c82af9467d4619130f921a94aba39b658be37e
 }
