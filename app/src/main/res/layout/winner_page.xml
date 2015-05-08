@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_theme_red_menu"
+    android:scrollbars="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/winnertitlemessage"
+            android:id="@+id/textView10"
+            android:textSize="50sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Menu"
+            android:id="@+id/menu_button"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/winnerbuttonmessagestats"
+            android:id="@+id/statisticsbutton"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/winnerbuttonmessagescore"
+            android:id="@+id/hiscorebutton"/>
+    </LinearLayout>
+
+</ScrollView>
